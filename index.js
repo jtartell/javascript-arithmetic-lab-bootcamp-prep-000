@@ -91,13 +91,10 @@ function makeInt(a) {
   return parseInt(a,10)
 }
 
-beforeEach(function() {
-  a = Math.floor(Math.random() * 1000)
-  b = Math.floor(Math.random() * 1000)
-})
 
 function preserveDecimal(a) {
   return parseFloat('a')
+   if (isNaN(parsed)) { return 0 }
 }
   
 

@@ -80,8 +80,7 @@ beforeEach(function() {
 
 function makeInt(a) {
   return parseInt('a');
-  
-}
+  }
 
 
  it('assumes base 10', function() {

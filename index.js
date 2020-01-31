@@ -59,6 +59,6 @@ beforeEach(function() {
 })
 
 
-function inc(n) {
+function inc(a) {
     return a += 1
 }

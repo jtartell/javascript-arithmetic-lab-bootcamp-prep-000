@@ -53,11 +53,12 @@ function inc(a,b) {
   return a / b
 }
 
+beforeEach(function() {
+  a = Math.floor(Math.random() * 1000)
+  b = Math.floor(Math.random() * 1000)
+})
 
 
 function inc(n) {
-    return a += 
+    return a += 1
 }
-it('inc(n) increments n and returns the result', function() {
-  expect(inc(a)).toEqual(a + 1)
-})

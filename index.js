@@ -96,7 +96,10 @@ beforeEach(function() {
   b = Math.floor(Math.random() * 1000)
 })
 
-function 
+function preserveDecimal(a) {
+  return parseFloat('a')
+}
+  
 
 
 
